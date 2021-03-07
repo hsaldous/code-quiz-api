@@ -1,0 +1,95 @@
+h1 {
+    background-color: grey;
+    color: orange;
+    text-align: center;
+}
+h4 {
+    color: orange;
+}
+body {
+    text-align: center;
+}
+    
+li{
+    color:orange;
+    list-style-type: none;
+}
+p{
+    color:orange;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+input{
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    width: 400px;
+    font-size: 40px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: grey;
+    border: 3px double orange;
+    color:orange;
+}
+#startpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#quiz {
+    display: none;
+} 
+#timer{
+    font-family: sans-serif;
+    background-color:grey;
+    color: orange;
+    font-size: large;
+    text-align: center;
+}
+#result {
+    display: none;
+}
+#gameOver {
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+#highscore-Page{
+    display: none;
+    width: 50%;
+    border: solid;
+    border-color:grey;
+
+}
+#highscore-header{
+    display:flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+}
+#highscore-Container{
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-color: grey;
+    border: 3px double orange;
+}
+#highscore-initials{
+    display: inline-block;
+    font-family: sans-serif;
+}
+#highscore-score{
+    float: right;
+    font-family: sans-serif;
+}
+#endGameBtns{
+    display: none;
+}
